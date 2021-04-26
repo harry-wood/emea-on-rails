@@ -1417,7 +1417,7 @@ braces@^3.0.1, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-bridgetown-quick-search@^1.0.3:
+bridgetown-quick-search@1.0.5, bridgetown-quick-search@^1.0.3:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/bridgetown-quick-search/-/bridgetown-quick-search-1.0.5.tgz#4286bc8268626d2193ad61392c21829ff73496a7"
   integrity sha512-P+x5pGHakw7aWkd7slV3GGtZHBzghvCIBERq5XSczpo0vIR/7Q629lB5FwWGH3ILW/poDBW12nWhsgtX3pMjAw==
