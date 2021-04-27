@@ -105,7 +105,8 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
 {: .mb-5 .title .has-text-centered #speakers}
 
 <div class="columns is-multiline is-justify-content-center">
-{% for speaker in page.speakers %}
+{% assign alphabetized-speakers = page.speakers | sort: "name" %}
+{% for speaker in alphabetized-speakers %}
   <div class="column is-half-mobile is-one-third-tablet">
     <div class="card is-full-mobile is-half-tablet is-one-third-desktop">
       <div class="card-image">
