@@ -1,5 +1,16 @@
 ---
-layout: bulmatown/homepage
+layout: default
 ---
 
-{{ content }}
+{% render "bulmatown/hero_wrapper",
+    title: site.metadata.title,
+    subtitle: site.metadata.description,
+    page: page,
+    metadata: site.metadata
+%}
+
+<section class="section">
+  <div class="container">
+    {{ content }}
+  </div>
+</section>
