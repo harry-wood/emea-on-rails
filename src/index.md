@@ -16,7 +16,7 @@ meetups:
 
 # What is EMEA on Rails?
 
-The Ruby community tends to focus on the Americas and Japan, but there are so many Rubyists in Europe, the Middle East, and Africa too! Let's get together (virtually for now) and experience some of the excitement of RailsConf, without jetlag or timezone issues!
+There are so many Rubyists in Europe, the Middle East, and Africa, but we haven't managed to gather much in the past year, and we could definitely learn a lot from each other. Let's get together (virtually for now) and experience some of the excitement of an international conference (remember those?), without jetlag or timezone challenges!
 
 Our first event will be a meetup-of-meetups featuring EMEA speakers from this past RailsConf. Keep scrolling to find out [which meetups are participating](#participating-meetups) and [who our speakers are](#speakers).
 
