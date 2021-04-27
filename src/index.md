@@ -2,9 +2,16 @@
 layout: home
 meetups:
   - name: Israel.rb
-    logo: https://pbs.twimg.com/profile_banners/1281546021575811073/1594379719/1500x500
+    logo: israelrb-logo
     homepage: https://www.facebook.com/groups/272757750683415
+  - name: Rzeszów Ruby User Group
+    logo: rrugpl-logo
+    homepage: https://twitter.com/rrugpl
+  - name: vienna.rb
+    logo: viennarb-logo
+    homepage: https://www.meetup.com/vienna-rb/
 ---
+
 
 # What is EMEA on Rails?
 
@@ -27,12 +34,12 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
 # Participating Meetups
 {: .mb-5 .title .has-text-centered #participating-meetups}
 
-<div class="columns is-multiline is-justify-content-center">
+<div class="columns is-mobile is-multiline is-gapless is-justify-content-center">
 {% for meetup in page.meetups %}
-  <div class="column is-full-mobile is-half-tablet is-one-quarter-desktop">
+  <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
     <a href="{{meetup.homepage}}">
-      <figure class="image is-1by1">
-        <img src="https://res.cloudinary.com/caplan/image/fetch/w_500,h_500,c_lpad,f_auto,q_auto/{{meetup.logo}}" alt="{{meetup.name}}">
+      <figure class="image is-2by1">
+        <img src="https://res.cloudinary.com/caplan/image/upload/w_370,h_246,c_lpad,f_auto,q_auto/v1/emea-on-rails-2021/{{meetup.logo}}.jpg" alt="{{meetup.name}}">
       </figure>
     </a>
   </div>
