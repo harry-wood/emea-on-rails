@@ -20,6 +20,17 @@ speakers:
       Cue Exhibit A: Cloudinary, which serves billions of image and video requests daily, including on-the-fly edits, QUICKLY, running on Rails since Day 1. Case closed?
       Not so fast. Beyond the app itself, we needed creative solutions to ensure that, as traffic rises and falls at the speed of the internet, we handle the load gracefully, and no customer overwhelms the system.
       The real question isn't whether Rails is up to the challenge, but rather: Are you?
+    bio: |-
+      Ariel works as a software engineer at Cloudinary, trying to bend the curve to achieve both code quality and great performance. In his experience, seeking multiple perspectives is the greatest tool available.
+  - name: Ben Greenberg
+    title: Self-Care on Rails
+    abstract: |-
+      This past year has been one of the most challenging years in recent memory. The pandemic has taken a toll, including on children.
+      Adults used their professional skills to help make the year a little better for the kids in our lives: Therapists counseled, entertainers delighted, teachers educated... and Rails developers developed!
+      In this talk, I'll share the apps I built on Rails that helped my kids and me cope, celebrate and persevere through the year.
+      In 2020, tech was pivotal in keeping us going, and for my kids, Rails made the year a little more manageable.
+    bio: |-
+      Ben is a second career developer who previously spent a decade in the fields of adult education, community organizing, and non-profit management. He works as the Ruby developer advocate for Vonage by day and experiments with open source projects at night. He writes regularly on the intersection of community development and tech. Originally from Southern California and a long time resident of New York City, Ben now resides near Tel Aviv.
 ---
 
 <div class="content" markdown=1>
@@ -110,6 +121,14 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
                 {% assign paragraphs = speaker.abstract | newline_to_br | split: '<br />' %}
                 {% for paragraph in paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
               </div>
+              <article class="message">
+                <div class="message-header">
+                  <p>Bio</p>
+                </div>
+                <div class="message-body">
+                  {{ speaker.bio }}
+                </div>
+              </article>
             </section>
           </div>
         </div>
