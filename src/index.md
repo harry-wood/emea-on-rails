@@ -32,6 +32,25 @@ speakers:
       In 2020, tech was pivotal in keeping us going, and for my kids, Rails made the year a little more manageable.
     bio: |-
       Ben is a second career developer who previously spent a decade in the fields of adult education, community organizing, and non-profit management. He works as the Ruby developer advocate for Vonage by day and experiments with open source projects at night. He writes regularly on the intersection of community development and tech. Originally from Southern California and a long time resident of New York City, Ben now resides near Tel Aviv.
+  - name: Maciek Rząsa
+    twitter: mjrzasa
+    title: "API Optimization Tale: Monitor, Fix and Deploy (on Friday)"
+    abstract: |-
+      I saw a green build on a Friday afternoon. I knew I need to push it to production before the weekend. My gut told me it was a trap. I had already stayed late to revert a broken deploy. I knew the risk.
+      In the middle of a service extraction project, we decided to migrate from REST to GraphQL and optimize API usage. My deploy was a part of this radical change.
+      Why was I deploying so late? How did we measure the migration effects? And why was I testing on production? I'll tell you a tale of small steps, monitoring, and old tricks in a new setting. Hope, despair, and broken production included.
+    bio: |-
+      Software engineer specialising in Ruby with ~10 years of experience in various domains. Interested in distributed systems, self-organising teams and writing software that matters. At Toptal where he works, he is involved in a Billing Extraction project in which a complex domain of billing is isolated as a separate service.
+      Knowledge sharing advocate. Co-organiser of Rzeszów Ruby User Group. Speaker at technical conferences and meetups. Instructor at Rzeszów University of Technology.
+  - name: Ramón Huidobro
+    twitter: hola_soy_milk
+    title: "New dev, old codebase: A series of mentorship stories"
+    abstract: |-
+      Mentorship in software development carries a lot of responsibility, but plays an integral part in making tech communities as well as individuals thrive.
+      In this talk, we'll go over some of my mentorship experiences, adopting techniques and learning to teach, so we can teach to learn. Anyone can be a great mentor!
+    bio: |-
+      Ramón is a software engineering and developer relations contractor based in Vienna, Austria. He's spent the last ten years being directly involved with small businesses and startups getting their apps off the ground or back in shape!
+      His main motivation is community. He's not only actively worked software builders both new and experienced, but also dedicated a time to organising conferences, workshops and other events aimed at helping empower folks in their tech journey.
 ---
 
 <div class="content" markdown=1>
