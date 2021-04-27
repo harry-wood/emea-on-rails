@@ -12,7 +12,7 @@ meetups:
     homepage: https://www.meetup.com/vienna-rb/
 speakers:
   - name: Ariel Caplan
-    gravatar: 7b5a451ee25044b9c869e3e98b79425d
+    twitter: amcaplan
     title: "The Trail to Scale Without Fail: Rails?"
     abstract: |-
       Let's be blunt: Most web apps aren’t so computation-heavy and won't hit scaling issues.
@@ -23,6 +23,7 @@ speakers:
     bio: |-
       Ariel works as a software engineer at Cloudinary, trying to bend the curve to achieve both code quality and great performance. In his experience, seeking multiple perspectives is the greatest tool available.
   - name: Ben Greenberg
+    twitter: rabbigreenberg
     title: Self-Care on Rails
     abstract: |-
       This past year has been one of the most challenging years in recent memory. The pandemic has taken a toll, including on children.
@@ -90,19 +91,21 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
     <div class="card is-full-mobile is-half-tablet is-one-third-desktop">
       <div class="card-image">
         <figure class="image is-1by1">
-          <img src="https://res.cloudinary.com/caplan/image/gravatar/w_400,h_400,c_fill,f_auto,q_auto/{{speaker.gravatar}}.jpg" alt="Profile of {{speaker.name}}" />
+          <img src="https://res.cloudinary.com/caplan/image/twitter_name/w_400,h_400,c_fill,f_auto,q_auto/{{speaker.twitter}}.jpg" alt="Profile of {{speaker.name}}" />
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <p class="title is-4">{{ speaker.name }}</p>
+            <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
+              <h4 class="title is-4">{{ speaker.name }}</h4>
+            </a>
             <p class="subtitle is-6 is-italic">{{ speaker.title }}</p>
           </div>
         </div>
 
         <div class="content">
-          {{ speaker.abstract | truncatewords: 20 }}
+          {{ speaker.abstract | truncatewords: 40 }}
         </div>
       </div>
       <div class="card-footer">
@@ -126,7 +129,8 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
                   <p>Bio</p>
                 </div>
                 <div class="message-body">
-                  {{ speaker.bio }}
+                  {% assign paragraphs = speaker.bio | newline_to_br | split: '<br />' %}
+                  {% for paragraph in paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
                 </div>
               </article>
             </section>
