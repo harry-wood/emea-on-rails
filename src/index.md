@@ -17,6 +17,10 @@ You can also:
 * [Register your meetup](https://forms.gle/s44Z78KySXYurX27A)
 * [Follow us on Twitter](https://twitter.com/emeaonrails) for updates
 
+## The Technical Details
+
+We'll meet on the evening of June 9, EMEA time, exact times and online platform are still TBD.
+
 ----
 {: .my-6}
 
