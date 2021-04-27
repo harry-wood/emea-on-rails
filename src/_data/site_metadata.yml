@@ -6,11 +6,12 @@
 
 title: EMEA on Rails 2021
 tagline: The conference experience, minus the jetlag!
-email: your-email@example.com
+  # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The conference experience, minus the jetlag! Check out our growing list of participating meetups!
+twitter: emeaonrails
 
 bulmatown_theme:
   image_sizes:
     embed: image
-    hero: image_hero
+    hero: auditorium-86197_1920.jpg
