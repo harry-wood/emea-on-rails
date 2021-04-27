@@ -66,7 +66,7 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
 <div class="columns is-multiline is-justify-content-center">
 {% assign alphabetized-speakers = site.data.speakers | sort: "name" %}
 {% for speaker in alphabetized-speakers %}
-  <div class="column is-half-tablet">
+  <div class="column is-one-third-tablet">
     <div class="card">
       <div class="card-image">
         <figure class="image is-1by1">
