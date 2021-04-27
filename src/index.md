@@ -107,8 +107,8 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
 <div class="columns is-multiline is-justify-content-center">
 {% assign alphabetized-speakers = page.speakers | sort: "name" %}
 {% for speaker in alphabetized-speakers %}
-  <div class="column is-half-mobile is-one-third-tablet">
-    <div class="card is-full-mobile is-half-tablet is-one-third-desktop">
+  <div class="column is-half-tablet">
+    <div class="card">
       <div class="card-image">
         <figure class="image is-1by1">
           <img src="https://res.cloudinary.com/caplan/image/twitter_name/w_400,h_400,c_fill,f_auto,q_auto/{{speaker.twitter}}.jpg" alt="Profile of {{speaker.name}}" />
@@ -148,7 +148,7 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
                 <div class="message-header">
                   <p>Bio</p>
                 </div>
-                <div class="message-body">
+                <div class="message-body content">
                   {% assign paragraphs = speaker.bio | newline_to_br | split: '<br />' %}
                   {% for paragraph in paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
                 </div>
