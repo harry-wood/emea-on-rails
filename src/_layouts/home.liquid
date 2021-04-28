@@ -2,11 +2,16 @@
 layout: default
 ---
 
-{% render "bulmatown/hero_wrapper",
-    title: site.metadata.title,
-    subtitle: site.metadata.description,
-    page: page,
-    metadata: site.metadata
+{% assign heroclass = "is-dark is-medium is-bold has-text-centered" %}
+{% assign subtitle-class = "has-text-light has-text-weight-semibold" %}
+{% assign imagesource = metadata.bulmatown_theme.image_sizes.hero | default: "image" %}
+{% render "bulmatown/hero",
+   class: heroclass,
+   cover: page[imagesource],
+   title: site.metadata.title,
+   title_class: "has-text-light",
+   subtitle: site.metadata.description,
+   subtitle_class: subtitle-class
 %}
 
 <section class="section">
