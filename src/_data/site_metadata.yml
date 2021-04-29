@@ -10,6 +10,7 @@ tagline: The conference experience, minus the jetlag!
 description: >- # this means to ignore newlines until "baseurl:"
   The conference experience, minus the jetlag! Join us online on June 9
 twitter: emeaonrails
+url: https://www.emeaonrails.com
 
 bulmatown_theme:
   image_sizes:
