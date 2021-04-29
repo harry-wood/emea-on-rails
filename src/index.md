@@ -61,7 +61,7 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
     <div class="card">
       <div class="card-image">
         <figure class="image is-1by1">
-          <img src="https://res.cloudinary.com/caplan/image/twitter_name/w_400,h_400,c_fill,f_auto,q_auto/{{speaker.twitter}}.jpg" alt="Profile of {{speaker.name}}" />
+          <img src="https://res.cloudinary.com/caplan/image/{% if speaker.avatar %}upload{% else %}twitter_name{% endif %}/w_400,h_400,c_fill,f_auto,q_auto/{% if speaker.avatar %}emea-on-rails-2021/speakers/{{speaker.avatar}}{% else %}{{speaker.twitter}}{% endif %}.jpg" alt="Profile of {{speaker.name}}" />
         </figure>
       </div>
       <div class="card-content">
