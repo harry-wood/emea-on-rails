@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
+<header class="hero is-dark is-medium is-bold has-text-centered">
+  <div>
+    <div class="container is-fluid">
+      <div class="columns is-centered">
+        <div class="column is-full-mobile is-one-half-tablet is-one-third-desktop">
+          <figure class="image is-4by3">
+            <img src="https://res.cloudinary.com/caplan/image/upload/e_blur:10,w_3000,h_3000/e_make_transparent:40/e_outline:8:4,co_rgb:222/w_800,h_600,c_thumb,f_auto,q_auto/v1619715827/emea-on-rails-2021/logo.png" />
+          </figure>
 
-{% assign heroclass = "is-dark is-medium is-bold has-text-centered" %}
-{% assign subtitle-class = "has-text-light has-text-weight-semibold" %}
-{% assign imagesource = metadata.bulmatown_theme.image_sizes.hero | default: "image" %}
-{% render "bulmatown/hero",
-   class: heroclass,
-   cover: page[imagesource],
-   title: site.metadata.title,
-   title_class: "has-text-light",
-   subtitle: site.metadata.description,
-   subtitle_class: subtitle-class
-%}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
 <section class="section">
   <div class="container">
