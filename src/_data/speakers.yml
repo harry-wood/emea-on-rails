@@ -38,3 +38,10 @@
   bio: |-
     Ramón is a software engineering and developer relations contractor based in Vienna, Austria. He's spent the last ten years being directly involved with small businesses and startups getting their apps off the ground or back in shape!
     His main motivation is community. He's not only actively worked software builders both new and experienced, but also dedicated a time to organising conferences, workshops and other events aimed at helping empower folks in their tech journey.
+- name: Jonas Jabari
+  twitter: jonasjabari
+  title: Beautiful reactive web UIs, Ruby and you
+  abstract: |-
+    A lot of life changing things have happened in 2020. And I'm obviously speaking about Stimulus Reflex and Hotwire and how we as Rails devs are finally enabled to skip a lot of JS while implementing reactive web UIs. But what if I told you, there's room for even more developer happiness? Imagine crafting beautiful UIs in pure Ruby, utilizing a library reaching from simple UI components representing basic HTML tags over styled UI concepts based on Bootstrap to something like a collection, rendering reactive data sets. Beautiful, reactive web UIs implemented in pure Ruby are waiting for you!
+  bio: |-
+    Jonas is a self-employed software developer. For years he struggled with increasing complexity of web app development caused by adding a JS frontend application instead of using the UI layer of Rails. He decided to fight against this complexity and created Matestack enabling Rails developers to implement reactive UIs in pure Ruby while enjoying highest developer happiness. Speaking of happiness: In his spare time he enjoys a good coffee and memes of funny dogs (and sometimes cats).
