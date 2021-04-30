@@ -46,3 +46,12 @@
     A lot of life changing things have happened in 2020. And I'm obviously speaking about Stimulus Reflex and Hotwire and how we as Rails devs are finally enabled to skip a lot of JS while implementing reactive web UIs. But what if I told you, there's room for even more developer happiness? Imagine crafting beautiful UIs in pure Ruby, utilizing a library reaching from simple UI components representing basic HTML tags over styled UI concepts based on Bootstrap to something like a collection, rendering reactive data sets. Beautiful, reactive web UIs implemented in pure Ruby are waiting for you!
   bio: |-
     Jonas is a self-employed software developer. For years he struggled with increasing complexity of web app development caused by adding a JS frontend application instead of using the UI layer of Rails. He decided to fight against this complexity and created Matestack enabling Rails developers to implement reactive UIs in pure Ruby while enjoying highest developer happiness. Speaking of happiness: In his spare time he enjoys a good coffee and memes of funny dogs (and sometimes cats).
+- name: Ufuk Kayserilioglu
+  twitter: paracycle
+  title: The Curious Case of the Bad Clone
+  abstract: |-
+    On Sept 4th 2020, I got pinged on a revert PR to fix a 150% slowdown on the Shopify monolith. It was a two-line change reverting the addition of a Sorbet signature on a Shop method, implicating Sorbet as the suspect.
+    That was the start of a journey that took me through a deeper understanding of the Sorbet, Rails and Ruby codebases. The fix is in Ruby 3.0 and I can sleep better now.
+    This talk will take you on that journey with me. Along the way, you will find tools and tricks that you can use for debugging similar problems. We will also delve into some nuances of Ruby, which is always fun.
+  bio: |-
+    Ufuk is the Production Engineering Manager of the Ruby Infrastructure team at Shopify and brings over 20 years of industry experience to the company for the adoption of better Ruby tooling and practices. He currently works remotely from Cyprus where he lives with his beloved wife and wonderful daughter.
