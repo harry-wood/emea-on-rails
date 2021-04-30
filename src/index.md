@@ -50,6 +50,7 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
       </button>
     </a>
   </p>
+</div>
 
 ----
 {: .my-6}
@@ -114,6 +115,26 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
   </div>
 {% endfor %}
 </div>
+
+----
+{: .my-6}
+
+# Thanks to our Supporters!
+{: .mb-5 .title .has-text-centered #supporters}
+
+<div class="columns is-mobile is-multiline is-justify-content-center">
+{% assign alphabetized-supporters = site.data.supporters | sort: "name" %}
+{% for supporter in alphabetized-supporters %}
+  <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+    <a href="{{supporter.homepage}}">
+      <figure class="image is-2by1">
+        <img src="https://res.cloudinary.com/caplan/image/upload/w_400,h_200,c_lpad,f_auto,q_auto/v1/emea-on-rails-2021/supporters/{{supporter.logo}}-logo.jpg" alt="{{supporter.name}}" />
+      </figure>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
 
 <script type="text/javascript">
   document.body.addEventListener("keyup", function(e) {
