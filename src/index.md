@@ -42,15 +42,14 @@ We'll meet on the evening of June 9, EMEA time, exact times and online platform 
   </div>
 {% endfor %}
 </div>
-  <p class="mt-5 has-text-centered">
-    <a href="https://forms.gle/s44Z78KySXYurX27A">
-      <button class="button is-primary">
-        <span class="icon"><i class="fa fa-file-text"></i></span>
-        <span>Add my meetup!</span>
-      </button>
-    </a>
-  </p>
-</div>
+<p class="mt-5 has-text-centered">
+  <a href="https://forms.gle/s44Z78KySXYurX27A">
+    <button class="button is-primary">
+      <span class="icon"><i class="fa fa-file-text"></i></span>
+      <span>Add my meetup!</span>
+    </button>
+  </a>
+</p>
 
 ----
 {: .my-6}
