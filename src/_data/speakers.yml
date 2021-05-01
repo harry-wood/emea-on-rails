@@ -55,3 +55,11 @@
     This talk will take you on that journey with me. Along the way, you will find tools and tricks that you can use for debugging similar problems. We will also delve into some nuances of Ruby, which is always fun.
   bio: |-
     Ufuk is the Production Engineering Manager of the Ruby Infrastructure team at Shopify and brings over 20 years of industry experience to the company for the adoption of better Ruby tooling and practices. He currently works remotely from Cyprus where he lives with his beloved wife and wonderful daughter.
+- name: Avital Tzubeli
+  twitter: avitaltzubeli
+  title: Storytelling for Tech People
+  abstract: |-
+    Remember the last conference talk that put you to sleep? It probably had a really catchy title, too. It's time to change that standard. It's time to learn how to turn our technical content into a beautiful story.
+    In this workshop you'll learn how to think differently about your topic; how to craft a story that will capture and impress your audience.
+  bio: |-
+    Avital Tzubeli is a passionate storyteller and tech storytelling trainer. She believes that any boring content can be turned into a magical fairytale. Avital began telling stories in NYC, and has since spoken on stages in Stockholm, Dublin, Tokyo, Brussels, and throughout the USA. A software engineer turned developer advocate, now at Vonage, Avital loves empowering developers to build epic stories and share them with the world.
