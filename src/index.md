@@ -22,6 +22,8 @@ You can also:
 
 We'll meet on the evening of June 9, EMEA time, exact times and online platform are still TBD.
 
+We will also have exciting contests and prizes for all our participants across the region!
+
 </div>
 
 ----
