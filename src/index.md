@@ -62,6 +62,7 @@ We will also have exciting contests and prizes for all our participants across t
 <div class="columns is-multiline is-justify-content-center">
 {% assign alphabetized-speakers = site.data.speakers | sort: "name" %}
 {% for speaker in alphabetized-speakers %}
+  {% assign abstract-paragraphs = speaker.abstract | newline_to_br | split: '<br />' %}
   <div class="column is-one-third-tablet">
     <div class="card">
       <div class="card-image">
@@ -75,12 +76,12 @@ We will also have exciting contests and prizes for all our participants across t
             <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
               <h4 class="title is-4">{{ speaker.name }}</h4>
             </a>
-            <p class="subtitle is-6 is-italic">{{ speaker.title }}</p>
+            <p class="subtitle is-6 is-italic min-2-line-height-mobile">{{ speaker.title }}</p>
           </div>
         </div>
 
-        <div class="content">
-          {{ speaker.abstract | truncatewords: 40 }}
+        <div class="content clamp-6-lines">
+          {% for paragraph in abstract-paragraphs %}{{ paragraph }}<br/><br/>{% endfor %}
         </div>
       </div>
       <div class="card-footer">
@@ -96,8 +97,7 @@ We will also have exciting contests and prizes for all our participants across t
             <section class="modal-card-body">
               <div class="content">
                 <h2>{{ speaker.title }}</h2>
-                {% assign paragraphs = speaker.abstract | newline_to_br | split: '<br />' %}
-                {% for paragraph in paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+                {% for paragraph in abstract-paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
               </div>
               <article class="message">
                 <div class="message-header">

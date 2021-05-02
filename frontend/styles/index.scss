@@ -24,3 +24,16 @@ header.hero.is-dark.is-bold {
 nav.navbar:not(.is-transparent) {
   background-image: linear-gradient(180deg, #54b4eb 0%, #3f84c4 60%, #235c96 100%);
 }
+
+.clamp-6-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .min-2-line-height-mobile {
+    min-height: 40px;
+  }
+}
