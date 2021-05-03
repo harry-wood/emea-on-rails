@@ -30,6 +30,7 @@ nav.navbar:not(.is-transparent) {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
   overflow: hidden;
+  max-height: 8.8em;
 }
 
 @media (min-width: 768px) {

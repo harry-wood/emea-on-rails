@@ -5792,6 +5792,11 @@ watchpack@^1.7.4:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
 
+webkit-line-clamp@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/webkit-line-clamp/-/webkit-line-clamp-1.2.2.tgz#f69575f58019afc43ca878b874829ab90310143c"
+  integrity sha512-OIzhT1h20iex1vXO+LxE0tOvdTvzJUnSoaT/Vgct17v4J/E9F4rcYioUjjIldeJZLiaaXcVAAyQ5ac0t0k5Qwg==
+
 webpack-cli@^3.3.11:
   version "3.3.12"
   resolved "https://registry.yarnpkg.com/webpack-cli/-/webpack-cli-3.3.12.tgz#94e9ada081453cd0aa609c99e500012fd3ad2d4a"

@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "bridgetown-quick-search": "1.0.5",
-    "bulmatown": "1.1.0"
+    "bulmatown": "1.1.0",
+    "webkit-line-clamp": "^1.2.2"
   }
 }
