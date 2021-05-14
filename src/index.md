@@ -127,7 +127,7 @@ We will also have exciting contests and prizes for all our participants across t
 {% assign alphabetized-supporters = site.data.supporters | sort: "name" %}
 {% for supporter in alphabetized-supporters %}
   <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-    <a href="{{supporter.homepage}}">
+    <a href="{{supporter.homepage}}" target="_blank">
       <figure class="image is-2by1">
         <img src="https://res.cloudinary.com/caplan/image/upload/w_400,h_200,c_lpad,f_auto,q_auto/v1/emea-on-rails-2021/supporters/{{supporter.logo}}-logo.jpg" alt="{{supporter.name}}" />
       </figure>
