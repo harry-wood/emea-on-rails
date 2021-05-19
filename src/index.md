@@ -20,7 +20,7 @@ You can also:
 
 ## The Technical Details
 
-We'll meet on the evening of June 9, at 15:00 UTC<span class="hidden zoned-time" data-time="2021-06-09T15:00:00Z"></span>, via SignalWire (link to be provided). You can view the [schedule](#schedule) below.
+We'll meet on the evening of June 9, at 15:00 UTC / <span class="hidden zoned-time" data-time="2021-06-09T15:00:00Z"></span>, via SignalWire (link to be provided). You can view the [schedule](#schedule) below.
 
 We will also have exciting contests and prizes for all our participants across the region!
 
@@ -185,7 +185,7 @@ We will also have exciting contests and prizes for all our participants across t
 
   Array.prototype.forEach.call(document.getElementsByClassName('zoned-time'), function(el) {
     var timeString = (new Date(Date.parse(el.dataset.time))).toLocaleTimeString('en-us',{timeZoneName:'short', hour12: false}).replace(/:\d\d /, ' ');
-    el.innerHTML = " (" + timeString + ")";
+    el.innerHTML = timeString;
     el.classList.remove('hidden');
   });
 </script>
