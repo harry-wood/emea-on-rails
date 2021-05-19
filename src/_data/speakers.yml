@@ -9,6 +9,7 @@
     The real question isn't whether Rails is up to the challenge, but rather: Are you?
   bio: |-
     Ariel works as a software engineer at Cloudinary, trying to bend the curve to achieve both code quality and great performance. In his experience, seeking multiple perspectives is the greatest tool available.
+  time: '15:05'
 - name: Ben Greenberg
   twitter: rabbigreenberg
   title: Self-Care on Rails
@@ -19,6 +20,7 @@
     In 2020, tech was pivotal in keeping us going, and for my kids, Rails made the year a little more manageable.
   bio: |-
     Ben is a second career developer who previously spent a decade in the fields of adult education, community organizing, and non-profit management. He works as the Ruby developer advocate for Vonage by day and experiments with open source projects at night. He writes regularly on the intersection of community development and tech. Originally from Southern California and a long time resident of New York City, Ben now resides near Tel Aviv.
+  time: '16:10'
 - name: Maciek Rząsa
   avatar: Maciej-sweter
   twitter: mjrzasa
@@ -30,6 +32,7 @@
   bio: |-
     Software engineer specialising in Ruby with ~10 years of experience in various domains. Interested in distributed systems, self-organising teams and writing software that matters. At Toptal where he works, he is involved in a Billing Extraction project in which a complex domain of billing is isolated as a separate service.
     Knowledge sharing advocate. Co-organiser of Rzeszów Ruby User Group. Speaker at technical conferences and meetups. Instructor at Rzeszów University of Technology.
+  time: '15:05'
 - name: Ramón Huidobro
   twitter: hola_soy_milk
   title: "New dev, old codebase: A series of mentorship stories"
@@ -39,6 +42,7 @@
   bio: |-
     Ramón is a software engineering and developer relations contractor based in Vienna, Austria. He's spent the last ten years being directly involved with small businesses and startups getting their apps off the ground or back in shape!
     His main motivation is community. He's not only actively worked software builders both new and experienced, but also dedicated a time to organising conferences, workshops and other events aimed at helping empower folks in their tech journey.
+  time: '17:25'
 - name: Jonas Jabari
   twitter: jonasjabari
   title: Beautiful reactive web UIs, Ruby and you
@@ -46,6 +50,7 @@
     A lot of life changing things have happened in 2020. And I'm obviously speaking about Stimulus Reflex and Hotwire and how we as Rails devs are finally enabled to skip a lot of JS while implementing reactive web UIs. But what if I told you, there's room for even more developer happiness? Imagine crafting beautiful UIs in pure Ruby, utilizing a library reaching from simple UI components representing basic HTML tags over styled UI concepts based on Bootstrap to something like a collection, rendering reactive data sets. Beautiful, reactive web UIs implemented in pure Ruby are waiting for you!
   bio: |-
     Jonas is a self-employed software developer. For years he struggled with increasing complexity of web app development caused by adding a JS frontend application instead of using the UI layer of Rails. He decided to fight against this complexity and created Matestack enabling Rails developers to implement reactive UIs in pure Ruby while enjoying highest developer happiness. Speaking of happiness: In his spare time he enjoys a good coffee and memes of funny dogs (and sometimes cats).
+  time: '17:25'
 - name: Ufuk Kayserilioglu
   twitter: paracycle
   title: The Curious Case of the Bad Clone
@@ -55,6 +60,7 @@
     This talk will take you on that journey with me. Along the way, you will find tools and tricks that you can use for debugging similar problems. We will also delve into some nuances of Ruby, which is always fun.
   bio: |-
     Ufuk is the Production Engineering Manager of the Ruby Infrastructure team at Shopify and brings over 20 years of industry experience to the company for the adoption of better Ruby tooling and practices. He currently works remotely from Cyprus where he lives with his beloved wife and wonderful daughter.
+  time: '15:05'
 - name: Avital Tzubeli
   twitter: avitaltzubeli
   title: Storytelling for Tech People
@@ -63,6 +69,7 @@
     In this workshop you'll learn how to think differently about your topic; how to craft a story that will capture and impress your audience.
   bio: |-
     Avital Tzubeli is a passionate storyteller and tech storytelling trainer. She believes that any boring content can be turned into a magical fairytale. Avital began telling stories in NYC, and has since spoken on stages in Stockholm, Dublin, Tokyo, Brussels, and throughout the USA. A software engineer turned developer advocate, now at Vonage, Avital loves empowering developers to build epic stories and share them with the world.
+  time: '15:05'
 - name: Vladimir Dementyev
   twitter: palkan_tula
   title: Frontendless Rails frontend
@@ -72,3 +79,4 @@
     In this talk, I'd like to demonstrate how we can develop modern "frontend" applications in the New Rails Way.
   bio: |-
     Vladimir is a mathematician who found his happiness in programming Ruby and Erlang, contributing to open source and being an Evil Martian. Author of AnyCable, TestProf, ActionPolicy and many yet unknown ukulele melodies.
+  time: '16:10'

@@ -38,3 +38,8 @@ nav.navbar:not(.is-transparent) {
     min-height: 40px;
   }
 }
+
+tr.break th {
+  padding-top: 0;
+  padding-bottom: 0;
+}

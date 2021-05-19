@@ -20,7 +20,7 @@ You can also:
 
 ## The Technical Details
 
-We'll meet on the evening of June 9, at 15:00 UTC<span class="hidden zoned-time" data-time="2021-06-09T15:00:00Z"></span>, exact schedule and online platform are still TBD.
+We'll meet on the evening of June 9, at 15:00 UTC<span class="hidden zoned-time" data-time="2021-06-09T15:00:00Z"></span>, via SignalWire (link to be provided). You can view the [schedule](#schedule) below.
 
 We will also have exciting contests and prizes for all our participants across the region!
 
@@ -63,7 +63,7 @@ We will also have exciting contests and prizes for all our participants across t
 {% assign alphabetized-speakers = site.data.speakers | sort: "name" %}
 {% for speaker in alphabetized-speakers %}
   {% assign abstract-paragraphs = speaker.abstract | newline_to_br | split: '<br />' %}
-  <div class="column is-one-third-tablet">
+  <div class="column is-one-third-tablet" id="speaker-{{ speaker.name | downcase | replace: ' ', '-' }}-card">
     <div class="card">
       <div class="card-image">
         <figure class="image is-1by1">
@@ -120,6 +120,38 @@ We will also have exciting contests and prizes for all our participants across t
 ----
 {: .my-6}
 
+# Schedule
+{: .mb-5 .title .has-text-centered #schedule}
+
+<div class="table-container">
+  <table class="table is-striped is-fullwidth">
+    <thead>
+      <th>Time</th>
+      <th>Speaker 1</th>
+      <th>Speaker 2</th>
+      <th>Speaker 3</th>
+      <th>Speaker 4</th>
+    </thead>
+    <tbody>
+      {% render "joint_session", time: "14:00", title: "Pre-Event Hangout Hour" %}
+      {% render "joint_session", time: "15:55", title: "Welcome and Opening Remarks" %}
+      {% render "speakers_slot", speakers: site.data.speakers, time: "15:05" %}
+      {% render "joint_session", time: "15:55", title: "Break" %}
+      {% render "joint_session", time: "16:00", title: "🏆 Ruby Trivia Quiz 1 🏆" %}
+      {% render "speakers_slot", speakers: site.data.speakers, time: "16:10" %}
+      {% render "joint_session", time: "16:40", title: "Break" %}
+      {% render "joint_session", time: "16:45", title: "Meetup Breakout Sessions" %}
+      {% render "joint_session", time: "17:10", title: "Break" %}
+      {% render "joint_session", time: "17:15", title: "🏆 Ruby Trivia Quiz 2 🏆" %}
+      {% render "speakers_slot", speakers: site.data.speakers, time: "17:25" %}
+      {% render "joint_session", time: "18:10", title: "Closing Remarks and Post-Event Hangout Hour" %}
+    </tbody>
+  </table>
+</div>
+
+----
+{: .my-6}
+
 # Thanks to our Supporters!
 {: .mb-5 .title .has-text-centered #supporters}
 
@@ -142,6 +174,13 @@ We will also have exciting contests and prizes for all our participants across t
     if (e.keyCode !== 27) return;
     var modal = document.getElementsByClassName("modal is-active")[0];
     if (modal) modal.classList.remove('is-active');
+  });
+
+  Array.prototype.forEach.call(document.getElementsByClassName("speaker-schedule-listing"), function(el) {
+    el.addEventListener("click", function(e) {
+      e.preventDefault()
+      document.querySelector("#speaker-" + el.dataset.speakerSlug + "-card .card-footer a").click()
+    });
   });
 
   Array.prototype.forEach.call(document.getElementsByClassName('zoned-time'), function(el) {
