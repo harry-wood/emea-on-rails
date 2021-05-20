@@ -26,6 +26,8 @@ We will also have exciting contests and prizes for all our participants across t
 
 </div>
 
+{% render "signup_button" %}
+
 ----
 {: .my-6}
 
@@ -148,6 +150,7 @@ We will also have exciting contests and prizes for all our participants across t
     </tbody>
   </table>
 </div>
+{% render "signup_button" %}
 
 ----
 {: .my-6}
@@ -169,6 +172,7 @@ We will also have exciting contests and prizes for all our participants across t
 </div>
 
 
+<script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js"></script>
 <script type="text/javascript">
   document.body.addEventListener("keyup", function(e) {
     if (e.keyCode !== 27) return;
