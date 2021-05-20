@@ -86,7 +86,7 @@ We will also have exciting contests and prizes for all our participants across t
       </div>
       <div class="card-footer">
         {% capture modal-id %}speaker-modal-{{ forloop.index }}{% endcapture %}
-        <a href="#{{ modal-id }}" class="card-footer-item" onclick="javascript:document.getElementById('{{ modal-id }}').classList.add('is-active');">Read More</a>
+        <a href="#{{ modal-id }}" class="card-footer-item speaker-read-more" data-modal-id="{{ modal-id }}">Read More</a>
         <div class="modal" id="{{ modal-id }}">
           <div class="modal-background" onclick="javascript:document.getElementById('{{ modal-id }}').classList.remove('is-active');"></div>
           <div class="modal-card">
@@ -178,8 +178,16 @@ We will also have exciting contests and prizes for all our participants across t
 
   Array.prototype.forEach.call(document.getElementsByClassName("speaker-schedule-listing"), function(el) {
     el.addEventListener("click", function(e) {
-      e.preventDefault()
-      document.querySelector("#speaker-" + el.dataset.speakerSlug + "-card .card-footer a").click()
+      e.preventDefault();
+      var modalId = document.querySelector("#speaker-" + el.dataset.speakerSlug + "-card .card-footer a.speaker-read-more").dataset.modalId;
+      document.getElementById(modalId).classList.add('is-active');
+    });
+  });
+
+  Array.prototype.forEach.call(document.getElementsByClassName("speaker-read-more"), function(el) {
+    el.addEventListener("click", function(e) {
+      e.preventDefault();
+      document.getElementById(el.dataset.modalId).classList.add('is-active');
     });
   });
 
